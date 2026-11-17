@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101820">
+  <meta name="description" content="TIMAYA Aluminium — quality aluminium windows, doors, roofing and fabrication in Nigeria.">
+  <title>TIMAYA Aluminium | Built to Last</title>
+  <style>
+    :root{--ink:#101820;--gold:#d7a943;--cream:#f6f4ef;--muted:#68727b;--white:#fff}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+    header{background:rgba(16,24,32,.97);color:#fff;position:sticky;top:0;z-index:10;border-bottom:1px solid #ffffff20}
+    .nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:1.5px;font-size:1.25rem}
+    .brand-mark{width:42px;height:42px;border:2px solid var(--gold);display:grid;place-items:center;color:var(--gold);font-weight:900;transform:skew(-8deg)}
+    .brand small{display:block;font-size:.62rem;letter-spacing:3px;color:#c7cbd0;font-weight:600}
+    nav{display:flex;gap:24px;align-items:center;font-size:.9rem}nav a:hover{color:var(--gold)}
+    .nav-cta,.btn{background:var(--gold);color:#111;padding:12px 19px;border-radius:3px;font-weight:800;display:inline-block}
+    .menu{display:none;background:none;color:white;border:1px solid #ffffff55;padding:8px 11px;font-size:1.2rem}
+    .hero{background:linear-gradient(90deg,rgba(8,15,21,.9),rgba(8,15,21,.48)),url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1900&q=85') center/cover;min-height:590px;display:flex;align-items:center;color:#fff}
+    .hero-content{max-width:690px;padding:80px 0}.eyebrow{color:var(--gold);font-weight:800;letter-spacing:3px;text-transform:uppercase;font-size:.78rem}
+    h1{font-size:clamp(2.7rem,6vw,5rem);line-height:1.03;margin:18px 0}.hero p{font-size:1.12rem;color:#e4e7e9;max-width:580px;margin-bottom:30px}
+    .outline{border:1px solid #fff;color:#fff;padding:11px 18px;display:inline-block;margin-left:10px}
+    section{padding:82px 0}.section-head{max-width:670px;margin-bottom:38px}.section-head h2{font-size:clamp(2rem,4vw,3rem);line-height:1.1;margin:10px 0}.section-head p{color:var(--muted)}
+    .intro{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.intro img{width:100%;height:390px;object-fit:cover;border-radius:5px}
+    .intro h2{font-size:2.5rem;line-height:1.12;margin:12px 0}.intro p{color:var(--muted)}
+    .ticks{padding:0;list-style:none}.ticks li{padding:8px 0}.ticks li:before{content:"✓";color:#a87917;font-weight:900;margin-right:10px}
+    .services{background:#fff}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .card{background:var(--cream);border:1px solid #e7e3d9;overflow:hidden}.card img{width:100%;height:215px;object-fit:cover;display:block}.card-body{padding:22px}.card h3{margin:0 0 8px}.card p{color:var(--muted);font-size:.95rem;margin:0}
+    .band{background:var(--ink);color:#fff}.band-inner{display:flex;justify-content:space-between;align-items:center;gap:25px}.band h2{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.15;margin:8px 0}.band p{color:#c8cdd1;max-width:650px}
+    .gallery{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:14px}.gallery img{width:100%;height:230px;object-fit:cover;border-radius:4px}.gallery img:first-child{height:474px;grid-row:span 2}
+    .contact{background:#fff}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}.contact-box{background:var(--ink);color:#fff;padding:30px;border-radius:5px}.contact-box p{color:#d1d5d8}
+    .contact-link{display:block;margin:14px 0;color:var(--gold);font-weight:700}.note{font-size:.85rem;color:var(--muted)}
+    footer{background:#0a1117;color:#c8cdd1;padding:28px 0;font-size:.88rem}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    @media(max-width:760px){nav{display:none;position:absolute;top:76px;left:0;right:0;background:var(--ink);padding:20px;flex-direction:column;align-items:flex-start}nav.open{display:flex}.menu{display:block}.hero{min-height:550px}.intro,.contact-grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.band-inner{display:block}.band .btn{margin-top:10px}.gallery{grid-template-columns:1fr 1fr}.gallery img:first-child{height:230px;grid-row:auto;grid-column:span 2}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home"><span class="brand-mark">T</span><span>TIMAYA<small>ALUMINIUM</small></span></a>
+    <button class="menu" aria-label="Open menu" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+    <nav>
+      <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Our Work</a><a href="#contact">Contact</a>
+      <a class="nav-cta" href="#contact">Get a Quote</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-content">
+      <div class="eyebrow">Quality aluminium solutions in Nigeria</div>
+      <h1>Strong finishes.<br>Beautiful spaces.</h1>
+      <p>From stylish windows and secure doors to dependable roofing and aluminium fabrication, TIMAYA helps bring your building vision to life.</p>
+      <a class="btn" href="#services">Explore our services</a>
+      <a class="outline" href="#contact">Talk to our team</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap intro">
+      <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85" alt="Modern home with quality exterior finishes">
+      <div>
+        <div class="eyebrow">Welcome to TIMAYA</div>
+        <h2>Built with care. Made to last.</h2>
+        <p>At TIMAYA Aluminium, we believe every building deserves quality materials and a neat, professional finish. We provide practical aluminium solutions for homes, offices and construction projects.</p>
+        <ul class="ticks"><li>Careful measurement and installation</li><li>Quality materials and clean finishing</li><li>Friendly service from start to finish</li><li>Solutions for homes and commercial buildings</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">What we do</div><h2>Our services</h2><p>Choose the right finish for your building. Contact us to discuss sizes, designs, materials and installation.</p></div>
+      <div class="cards">
+        <article class="card"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85" alt="Modern sliding glass windows"><div class="card-body"><h3>PVC & Sliding Windows</h3><p>Modern window options designed to bring in natural light and complement your building's style.</p></div></article>
+        <article class="card"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=85" alt="Contemporary house entrance"><div class="card-body"><h3>Casement Windows & Frames</h3><p>Neat casement window frames and fittings, measured to suit your project and preferred design.</p></div></article>
+        <article class="card"><img src="https://images.unsplash.com/photo-1635424710928-3b2f7e9c6a1b?auto=format&fit=crop&w=900&q=85" alt="Roof construction on a building"><div class="card-body"><h3>Roofing & Aluminium Work</h3><p>Aluminium roofing support and fabrication solutions for residential and commercial projects.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap band-inner"><div><div class="eyebrow">Let's build something great</div><h2>Your project deserves a quality finish.</h2><p>Tell us what you are building. We can discuss your requirements and help you plan the right aluminium solution.</p></div><a class="btn" href="#contact">Request a quote</a></div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">Workmanship matters</div><h2>Ideas for your next project</h2><p>Explore examples of modern building styles and finishes. Replace these sample photos with TIMAYA's own completed projects as you build your portfolio.</p></div>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1600585154526-990dceb4db0d?auto=format&fit=crop&w=1000&q=85" alt="Contemporary residential building">
+        <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=85" alt="Modern home interior">
+        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=85" alt="Modern home exterior">
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap contact-grid">
+      <div><div class="eyebrow">Contact TIMAYA</div><h2>Let's talk about your project.</h2><p>Ready to get started? Reach out to ask a question, request a quote or discuss your building plans.</p><p class="note">Before publishing, update the contact details below with your real business phone number, WhatsApp number, email and service location.</p></div>
+      <div class="contact-box"><h3>TIMAYA Aluminium</h3><p>Quality aluminium solutions for Nigerian homes and businesses.</p>
+        <a class="contact-link" href="https://wa.me/2340000000000">WhatsApp: Add your number</a>
+        <a class="contact-link" href="tel:+2340000000000">Phone: Add your number</a>
+        <a class="contact-link" href="mailto:hello@yourcompany.com">Email: Add your email</a>
+        <p>Service location: Nigeria</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap footer-inner"><span>© <span id="year"></span> TIMAYA Aluminium. All rights reserved.</span><span>Quality • Craftsmanship • Reliability</span></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
